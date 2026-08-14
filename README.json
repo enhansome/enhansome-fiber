@@ -1,0 +1,1717 @@
+{
+  "items": [
+    {
+      "description": "Where to discover Fiber middlewares.",
+      "items": [],
+      "title": "⚙️ Middlewares"
+    },
+    {
+      "description": "List of middlewares that are included within the Fiber framework.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Adaptor",
+          "description": "Converter for net/http handlers to/from Fiber request handlers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BasicAuth",
+          "description": "Basic auth middleware provides an HTTP basic authentication. It calls the next handler for valid credentials and 401 Unauthorized for missing or invalid credentials.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cache",
+          "description": "Intercept and cache responses.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Compress",
+          "description": "Compression middleware for Fiber, it supports , and by default.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CORS",
+          "description": "Enable cross-origin resource sharing (CORS) with various options.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CSRF",
+          "description": "Protect from CSRF exploits.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Earlydata",
+          "description": "Early data support for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Encrypt Cookie",
+          "description": "Encrypt middleware which encrypts cookie values.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EnvVar",
+          "description": "Expose environment variables with providing an optional config.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ETag",
+          "description": "Lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Expvar",
+          "description": "Serves runtime exposed variants in JSON format via its HTTP server.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Favicon",
+          "description": "Ignore favicon from logs or serve from memory if a file path is provided.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Healthcheck",
+          "description": "Adds health-check endpoints for readiness and liveness probes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Helmet",
+          "description": "Helps secure your apps by setting various HTTP headers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Host Authorization",
+          "description": "Validates the header against an allowlist to protect against DNS rebinding attacks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Idempotency",
+          "description": "Enables fault-tolerant APIs when duplicate requests occur.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Keyauth",
+          "description": "Key auth middleware provides a key based authentication.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Limiter",
+          "description": "Rate-limiting middleware. Use to limit repeated requests to public APIs and/or endpoints such as password reset.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Logger",
+          "description": "HTTP request/response logger.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Paginate",
+          "description": "Parses pagination parameters from the query string, supporting page-based, offset-based and cursor-based strategies.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Pprof",
+          "description": "Serves runtime profiling data in the format expected by the pprof visualization tool.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Proxy",
+          "description": "Allows you to proxy requests to a multiple servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Recover",
+          "description": "Recovers from panics anywhere in the stack chain and hands control to the centralized ErrorHandler.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Redirect",
+          "description": "Handles HTTP redirects in Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RequestID",
+          "description": "Adds a requestid to every request.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Responsetime",
+          "description": "Adds an header to responses.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Rewrite",
+          "description": "Rewrites the URL path based on provided rules for backward compatibility or cleaner links.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Session",
+          "description": "Provides session management. NOTE: This middleware uses our Storage package.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Skip",
+          "description": "Skips a wrapped handler when a predicate is true.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SSE",
+          "description": "Server-Sent Events transport that handles headers, event formatting, flushing, heartbeats and disconnect detection.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Static",
+          "description": "Serves static files from a local or custom file system.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Timeout",
+          "description": "Adds a max time for a request and forwards to ErrorHandler if it is exceeded.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:52:27Z",
+            "owner": "gofiber",
+            "repo": "fiber",
+            "stars": 40061
+          }
+        }
+      ],
+      "title": "🧬 Core"
+    },
+    {
+      "description": "List of externally hosted middleware modules and maintained by the Fiber team.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "storage",
+          "description": "Premade storage drivers that implement the Storage interface, designed to be used with various Fiber middlewares.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:14:23Z",
+            "owner": "gofiber",
+            "repo": "storage",
+            "stars": 335
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "template",
+          "description": "This package contains 8 template engines that can be used with Fiber v1.10.x Go version 1.13 or higher is required.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:25Z",
+            "owner": "gofiber",
+            "repo": "template",
+            "stars": 313
+          }
+        }
+      ],
+      "title": "🔗 External"
+    },
+    {
+      "description": "List of third party middlewares and maintained by the Fiber team and community.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "casbin",
+          "description": "Authorization middleware for Fiber powered by Casbin.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "circuitbreaker",
+          "description": "Circuit breaker middleware for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "coraza",
+          "description": "Web application firewall middleware for Fiber powered by Coraza.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fgprof",
+          "description": "Fiber profiling support via fgprof.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hcaptcha",
+          "description": "Bot-protection middleware using hCaptcha.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "i18n",
+          "description": "Internationalization middleware built on go-i18n.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jwt",
+          "description": "JSON Web Token (JWT) auth middleware.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "loadshed",
+          "description": "Load-shedding middleware to protect Fiber services under pressure.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "monitor",
+          "description": "Server metrics monitor middleware for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "newrelic",
+          "description": "New Relic instrumentation support for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "opa",
+          "description": "Open Policy Agent (OPA) middleware support for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "otel",
+          "description": "OpenTelemetry middleware support for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "paseto",
+          "description": "Platform-Agnostic Security Tokens (PASETO) auth middleware.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "prometheus",
+          "description": "Middleware that instruments incoming requests and serves a metrics endpoint for Prometheus.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sentry",
+          "description": "Error monitoring and reporting integration for Fiber with Sentry.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "socketio",
+          "description": "Socket.IO-inspired WebSocket wrapper middleware for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "spnego",
+          "description": "Kerberos authentication middleware for Fiber using the SPNEGO mechanism.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swaggo",
+          "description": "Middleware for serving Swag-generated API docs in Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swaggerui",
+          "description": "Swagger UI middleware for serving OpenAPI specs in Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "testcontainers",
+          "description": "Service implementation for integrating Testcontainers with Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "uptime",
+          "description": "Records heartbeat history and serves a status dashboard with a JSON API for monitoring uptime.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "WebSocket",
+          "description": "Fasthttp-based WebSocket integration for Fiber with support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zap",
+          "description": "Logging middleware support for Fiber with Zap.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zerolog",
+          "description": "Logging middleware support for Fiber with Zerolog.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:29Z",
+            "owner": "gofiber",
+            "repo": "contrib",
+            "stars": 304
+          }
+        }
+      ],
+      "title": "‍💻 Contrib"
+    },
+    {
+      "description": "List of middlewares that are created by the Fiber community.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "darkweak/souin",
+          "description": "HTTP cache, RFC compliant, alternative to Varnish available as a middleware.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-28T09:13:43Z",
+            "owner": "darkweak",
+            "repo": "souin",
+            "stars": 989
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "newrelic/go-agent",
+          "description": "Official New Relic middleware for Fiber that manages instrumentation for New Relic monitoring.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T16:22:40Z",
+            "owner": "newrelic",
+            "repo": "go-agent",
+            "stars": 838
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "elastic/apmfiber",
+          "description": "APM Agent for Go Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-24T13:55:53Z",
+            "owner": "elastic",
+            "repo": "apm-agent-go",
+            "stars": 425
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ansrivas/fiberprometheus",
+          "description": "Prometheus middleware for gofiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-08T03:52:03Z",
+            "owner": "ansrivas",
+            "repo": "fiberprometheus",
+            "stars": 208
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "oaswrap/fiberopenapi",
+          "description": "Fiber adapter for OpenAPI 3.x specification generation with automatic route documentation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-25T13:46:02Z",
+            "owner": "oaswrap",
+            "repo": "spec",
+            "stars": 117
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "airbrake/gobrake",
+          "description": "An Airbrake middleware that reports performance data (route stats).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-03-18T02:24:19Z",
+            "owner": "airbrake",
+            "repo": "gobrake",
+            "stars": 106
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "samber/slog-fiber",
+          "description": "A logger middleware that uses Go slog library.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-01T20:43:51Z",
+            "owner": "samber",
+            "repo": "slog-fiber",
+            "stars": 98
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fugue-labs/gollem",
+          "description": "Handler adapter that wraps a gollem AI agent as a Fiber handler with SSE streaming support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-31T03:58:03Z",
+            "owner": "fugue-labs",
+            "repo": "gollem",
+            "stars": 31
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sacsand/gofiber-firebaseauth",
+          "description": "Fiber Firebase Auth Middleware.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2022-02-20T12:21:29Z",
+            "owner": "sacsand",
+            "repo": "gofiber-firebaseauth",
+            "stars": 26
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "joffref/opa-middleware",
+          "description": "Provides an OPA middleware integration for fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-03-14T11:31:55Z",
+            "owner": "Joffref",
+            "repo": "opa-middleware",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "witer33/fiberpow",
+          "description": "Anti DDoS/Bot Middleware with a customizable Proof Of Work challenge.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-27T13:51:51Z",
+            "owner": "witer33",
+            "repo": "fiberpow",
+            "stars": 16
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shareed2k/fiber_limiter",
+          "description": "Limiter using Redis as store for rate limit with two algorithms for choosing sliding window, gcra leaky bucket.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-05-31T10:45:05Z",
+            "owner": "Shareed2k",
+            "repo": "fiber_limiter",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Idan-Fishman/fiber-bind",
+          "description": "Request schema validator middleware that validates sources such as the request body, query string parameters, route parameters and even form files.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-11-25T21:26:25Z",
+            "owner": "idanfishman",
+            "repo": "fiber-bind",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shareed2k/fiber_tracing",
+          "description": "Middleware trace requests on Fiber framework with OpenTracing API.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-03-27T14:26:06Z",
+            "owner": "Shareed2k",
+            "repo": "fiber_tracing",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aschenmaker/fiber-health-check",
+          "description": "Health-check middleware support health-check for Fiber️ framework.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2021-06-03T14:52:34Z",
+            "owner": "aschenmaker",
+            "repo": "fiber-health-check",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mikhail-bigun/fiberlogrus",
+          "description": "A logger middleware that uses logrus and its structured logging features.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-03-11T07:49:50Z",
+            "owner": "bigunmd",
+            "repo": "fiberlogrus",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zeiss/fiber-authz",
+          "description": "A middleware to secure routes in Fiber with a defined RBAC model.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-09T07:26:09Z",
+            "owner": "ZEISS",
+            "repo": "fiber-authz",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "apitally/apitally-go",
+          "description": "Simple API monitoring tool for Fiber. Tracks API usage, errors, and performance, and includes request logging and alerting features.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-08T01:47:00Z",
+            "owner": "apitally",
+            "repo": "apitally-go",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zeiss/fiber-htmx",
+          "description": "A middleware for using HTMX in Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "CSS",
+            "last_commit": "2026-08-10T04:13:01Z",
+            "owner": "ZEISS",
+            "repo": "fiber-htmx",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zeiss/fiber-goth",
+          "description": "Simple middleware to integrate authentication to your Fiber applications.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-10T04:07:48Z",
+            "owner": "ZEISS",
+            "repo": "fiber-goth",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "streamerd/fibergun",
+          "description": "A GunDB middleware for Fiber. Enables easy integration of GunDB, a decentralized database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-11-22T15:48:32Z",
+            "owner": "streamerd",
+            "repo": "fibergun",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "eozer/fiber_ldapauth",
+          "description": "LDAP Authentication Middleware for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-05-13T04:16:42Z",
+            "owner": "eozer",
+            "repo": "fiber_ldapauth",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DavidHoenisch/fiber-coraza",
+          "description": "Coraza WAF middleware for Fiber, providing web application firewall protection with ModSecurity-compatible rules.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-10T20:10:07Z",
+            "owner": "DavidHoenisch",
+            "repo": "fiber-coraza",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "beyer-stefan/gofiber-minifier",
+          "description": "Minifying middleware for HTML5, CSS3, and JavaScript.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2024-11-23T09:31:40Z",
+            "owner": "beyer-stefan",
+            "repo": "gofiber-minifier",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vladfr/fiber-servertiming",
+          "description": "A middleware to add Server-Timing headers based on the W3C Server-Timing Spec.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2022-10-31T13:45:51Z",
+            "owner": "vladfr",
+            "repo": "fiber-servertiming",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jsorb84/ssefiber",
+          "description": "A basic SSE Implementation for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-03-15T21:50:35Z",
+            "owner": "jsorb84",
+            "repo": "ssefiber",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "narmadaweb/limiter",
+          "description": "A high-performance Redis-backed rate limiter middleware for Fiber, supporting fixed window, sliding window, and token bucket algorithms.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-03-26T16:44:28Z",
+            "owner": "NarmadaWeb",
+            "repo": "limiter",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "narmadaweb/gonify",
+          "description": "Fiber Minifying middleware for HTML5, CSS3, JavaScript, Json, XML and SVG.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-06T15:37:52Z",
+            "owner": "NarmadaWeb",
+            "repo": "gonify",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "🌱 Third Party"
+    },
+    {
+      "description": "Premade boilerplates for Fiber.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "create-go-app/fiber-go-template",
+          "description": "Fiber backend template for Create Go App CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-30T11:03:20Z",
+            "owner": "create-go-app",
+            "repo": "fiber-go-template",
+            "stars": 1112
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gofiber/boilerplate",
+          "description": "Official fiber boilerplate.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:41:26Z",
+            "owner": "gofiber",
+            "repo": "boilerplate",
+            "stars": 504
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sujit-baniya/fiber-boilerplate",
+          "description": "Boilerplate on the top of fiber web framework with many middlewares and features.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-09-24T17:13:14Z",
+            "owner": "sujit-baniya",
+            "repo": "fiber-boilerplate",
+            "stars": 430
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fiber-boilerplate",
+          "description": "A boilerplate for the Fiber web framework.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2023-03-04T15:50:18Z",
+            "owner": "thomasvvugt",
+            "repo": "fiber-boilerplate",
+            "stars": 284
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GalvinGao/gofiber-template",
+          "description": "A production-ready, container-first opinionated gofiber project template. Config by envvars, DI by go.uber.org/fx, Database by uptrace/bun, with out-of-the-box MVC folder structure and CI/CD support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-09T17:11:55Z",
+            "owner": "GalvinGao",
+            "repo": "gofiber-template",
+            "stars": 133
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "efectn/fiber-boilerplate",
+          "description": "Simple and scalable boilerplate to build powerful and organized REST projects with Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2023-03-27T02:02:36Z",
+            "owner": "efectn",
+            "repo": "fiber-boilerplate",
+            "stars": 85
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sebajax/go-vertical-slice-architecture",
+          "description": "Vertical Slice Architecture code archetype using Fiber and Uber dig. A maintainable, and scalable code organization.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-02-25T02:43:19Z",
+            "owner": "sebajax",
+            "repo": "go-vertical-slice-architecture",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "embedmode/fiberseed",
+          "description": "Fiber boilerplate api with many middlewares.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2021-05-04T05:36:23Z",
+            "owner": "embedmode",
+            "repo": "fiberseed",
+            "stars": 40
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "goravel/fiber",
+          "description": "Laravel similar boilerplate with support for Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T03:43:41Z",
+            "owner": "goravel",
+            "repo": "fiber",
+            "stars": 31
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mikhail-bigun/go-app-template",
+          "description": "Clean architecture Go application boilerplate with enriched Fiber implementation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2023-11-07T14:55:08Z",
+            "owner": "bigunmd",
+            "repo": "go-app-template",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "amrebada/go-modules",
+          "description": "Nest JS like structure for Go Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-10-01T04:45:35Z",
+            "owner": "amrebada",
+            "repo": "go-modules",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "felipeafonso/go-htmx-starter",
+          "description": "A front-end opinionated boilerplate for Go + HTMX development, using Tailwind and Vite for Bundling and Hot Reloading.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-03-19T22:18:46Z",
+            "owner": "FelipeAfonso",
+            "repo": "go-htmx-starter",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "go-rat/fiber-skeleton",
+          "description": "Fiber skeleton to powers web projects, support wire-based dependency injection.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:14:16Z",
+            "owner": "libtnb",
+            "repo": "fiber-skeleton",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ingeniousambivert/fiber-bootstrapped",
+          "description": "A toolkit for Go projects embracing a service-centric architecture, inspired by the principles of FeathersJS.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-02-23T13:33:03Z",
+            "owner": "monarchmaisuriya",
+            "repo": "fiber-bootstrapped",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rachmanzz/fiber-starter",
+          "description": "A Go backend boilerplate using Fiber v3, PostgreSQL (pgx v5), and SQLC.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-11T04:58:03Z",
+            "owner": "rachmanzz",
+            "repo": "fiber-starter",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "🚧 Boilerplates"
+    },
+    {
+      "description": "Recipes for Fiber.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "gofiber/recipes",
+          "description": "Official Fiber cookbook.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:54:45Z",
+            "owner": "gofiber",
+            "repo": "recipes",
+            "stars": 3453
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "koddr/tutorial-go-fiber-rest-api",
+          "description": "Tutorial for building a restful api with fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-02-09T15:42:27Z",
+            "owner": "koddr",
+            "repo": "tutorial-go-fiber-rest-api",
+            "stars": 393
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "alpody/golang-fiber-realworld-example-app",
+          "description": "Example real world backend API built with Fiber, Gorm, Swagger.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-03-06T17:23:17Z",
+            "owner": "alpody",
+            "repo": "golang-fiber-realworld-example-app",
+            "stars": 147
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kubestellar/console",
+          "description": "AI-powered multi-cluster Kubernetes dashboard built on Fiber, with real-time observability and CNCF integrations.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-14T03:43:47Z",
+            "owner": "kubestellar",
+            "repo": "console",
+            "stars": 127
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "firebase007/go-rest-api-with-fiber",
+          "description": "Demo project with fiber, logging, basicAuth and postgresql.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-06-11T18:38:22Z",
+            "owner": "firebase007",
+            "repo": "go-rest-api-with-fiber",
+            "stars": 58
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EricLau1/go-fiber-auth-api",
+          "description": "Golang Authentication API with Fiber MongoDB and JWT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2021-02-14T19:31:05Z",
+            "owner": "EricLau1",
+            "repo": "go-fiber-auth-api",
+            "stars": 54
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "chawk/go_fiber_quickstart",
+          "description": "Fiber quick start example project.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-08-01T02:15:56Z",
+            "owner": "chawk",
+            "repo": "go_fiber_quickstart",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "paundraP/golang-starter-template",
+          "description": "Golang REST API with authentication, authorization, and integrated payment gateway support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-04-02T21:34:38Z",
+            "owner": "paundraP",
+            "repo": "Go-Starter-Template",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kiyonlin/fiblar-demo",
+          "description": "Fiber v1 + angular demo.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-01-06T09:14:28Z",
+            "owner": "kiyonlin",
+            "repo": "fiblar-demo",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "📁 Recipes"
+    },
+    {
+      "description": "Several tools to make Fiber usage easier.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "deepmap/oapi-codegen",
+          "description": "Generate Go client and server boilerplate from OpenAPI 3 specifications.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T20:56:50Z",
+            "owner": "oapi-codegen",
+            "repo": "oapi-codegen",
+            "stars": 8513
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Alibaba/opentelemetry-go-auto-instrumentation",
+          "description": "A tool to monitor fiber application without changing any code with OpenTelemetry APIs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T14:19:34Z",
+            "owner": "alibaba",
+            "repo": "loongsuite-go",
+            "stars": 892
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gofiber/cli",
+          "description": "Official Fiber command line interface for project generation, live reloading and version migration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:46:45Z",
+            "owner": "gofiber",
+            "repo": "cli",
+            "stars": 94
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MUlt1mate/protoc-gen-httpgo",
+          "description": "A protoc plugin that generates Fiber HTTP server and client code from proto files.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-22T10:33:30Z",
+            "owner": "MUlt1mate",
+            "repo": "protoc-gen-httpgo",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "go-dawn/dawn",
+          "description": "Dawn is an opinionated web framework that provides rapid development capabilities which on top of Fiber.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2023-03-27T04:00:06Z",
+            "owner": "go-dawn",
+            "repo": "dawn",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tompston/gomakeme",
+          "description": "Generate boilerplate + endpoints for Fiber or Gin REST APIs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2022-02-21T19:59:57Z",
+            "owner": "tompston",
+            "repo": "gomakeme",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ryanbekhen/feserve",
+          "description": "Feserve is a lightweight application or Docker image to serve frontend and load balancer applications.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-11-27T03:52:17Z",
+            "owner": "ryanbekhen",
+            "repo": "feserve",
+            "stars": 8
+          }
+        }
+      ],
+      "title": "🛠️ Tools"
+    },
+    {
+      "description": "Contribution guidelines can be found on CONTRIBUTING.md",
+      "items": [],
+      "title": "👍 Contributing"
+    },
+    {
+      "description": "Fiber is an open-source project that runs on donations to pay the bills, e.g., our domain name, hosting, and serverless infrastructure. If you want to support Fiber, please become a GitHub Sponsor.",
+      "items": [],
+      "title": "☕ Supporters"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📅 Monthly Sponsors"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🎁 One-time Sponsors"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-14T03:52:16.440Z",
+    "original_repository": "gofiber/awesome-fiber",
+    "original_repository_sha": "9fea8f37d10bc9ef22685c2e0fc17e5b7113c918",
+    "enhanced_repository": "enhansome/enhansome-fiber",
+    "enhanced_repository_description": null,
+    "title": "Awesome Fiber with stars"
+  }
+}
