@@ -516,7 +516,7 @@
                 "archived": false,
                 "id": 240407862,
                 "language": "Go",
-                "last_commit": "2026-08-25T02:43:33Z",
+                "last_commit": "2026-08-25T03:56:29Z",
                 "owner": "gofiber",
                 "repo": "template",
                 "stars": 313
@@ -1567,7 +1567,7 @@
             "archived": false,
             "id": 238553537,
             "language": "Go",
-            "last_commit": "2026-08-24T08:56:28Z",
+            "last_commit": "2026-08-25T05:12:39Z",
             "owner": "gofiber",
             "repo": "recipes",
             "stars": 3454
@@ -1612,7 +1612,7 @@
             "archived": false,
             "id": 1135473716,
             "language": "TypeScript",
-            "last_commit": "2026-08-25T02:06:00Z",
+            "last_commit": "2026-08-25T06:04:57Z",
             "owner": "kubestellar",
             "repo": "console",
             "stars": 127
@@ -1723,7 +1723,7 @@
             "archived": false,
             "id": 751766102,
             "language": "Go",
-            "last_commit": "2026-08-24T01:25:17Z",
+            "last_commit": "2026-08-25T05:35:41Z",
             "owner": "alibaba",
             "repo": "loongsuite-go",
             "stars": 896
@@ -1809,7 +1809,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T02:45:47.206Z",
+    "last_updated": "2026-08-25T06:09:15.098Z",
     "original_repository": "gofiber/awesome-fiber",
     "original_repository_id": 462627017,
     "original_repository_sha": "3b60ec552c0235b86d5efaf0ddf8f9ad53b9c683",
