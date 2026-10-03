@@ -3086,8 +3086,8 @@
             "id": 1135473716,
             "language": "TypeScript",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-03T04:21:51Z",
-            "open_issues": 5,
+            "last_commit": "2026-10-03T05:45:35Z",
+            "open_issues": 4,
             "owner": "kubestellar",
             "repo": "console",
             "stars": 140,
@@ -3421,7 +3421,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:43:33.923Z",
+    "last_updated": "2026-10-03T07:07:08.120Z",
     "original_repository_info": {
       "archived": false,
       "description": "✨ A curated list of awesome Fiber middlewares, boilerplates, recipes, articles and tools.",
