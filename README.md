@@ -7,7 +7,7 @@
   </picture>
 </a>
 
-> **Fiber** is an [Express](https://github.com/expressjs/express) ⭐ 69,579 | 🐛 259 | 🌐 JavaScript | 📅 2026-10-27 inspired **web framework** built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,498 | 🐛 69 | 🌐 Go | 📅 2026-10-29, the **fastest** HTTP engine for [Go](https://golang.org/doc/). Designed to **ease** things up for **fast** development with **zero memory allocation** and **performance** in mind.
+> **Fiber** is an [Express](https://github.com/expressjs/express) ⭐ 69,584 | 🐛 261 | 🌐 JavaScript | 📅 2026-10-27 inspired **web framework** built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,498 | 🐛 65 | 🌐 Go | 📅 2026-11-01, the **fastest** HTTP engine for [Go](https://golang.org/doc/). Designed to **ease** things up for **fast** development with **zero memory allocation** and **performance** in mind.
 
 A curated list of awesome Fiber middlewares, boilerplates, recipes, articles and tools. <br>
 
@@ -37,38 +37,38 @@ Where to discover Fiber middlewares.
 
 List of middlewares that are included within the Fiber framework.
 
-* [Adaptor](https://github.com/gofiber/fiber/tree/main/middleware/adaptor) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Converter for net/http handlers to/from Fiber request handlers.
-* [BasicAuth](https://github.com/gofiber/fiber/tree/main/middleware/basicauth) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Basic auth middleware provides an HTTP basic authentication. It calls the next handler for valid credentials and 401 Unauthorized for missing or invalid credentials.
-* [Cache](https://github.com/gofiber/fiber/tree/main/middleware/cache) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Intercept and cache responses.
-* [Compress](https://github.com/gofiber/fiber/tree/main/middleware/compress) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Compression middleware for Fiber, it supports `deflate`, `gzip` and `brotli` by default.
-* [CORS](https://github.com/gofiber/fiber/tree/main/middleware/cors) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Enable cross-origin resource sharing (CORS) with various options.
-* [CSRF](https://github.com/gofiber/fiber/tree/main/middleware/csrf) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Protect from CSRF exploits.
-* [Earlydata](https://github.com/gofiber/fiber/tree/main/middleware/earlydata) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Early data support for Fiber.
-* [Encrypt Cookie](https://github.com/gofiber/fiber/tree/main/middleware/encryptcookie) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Encrypt middleware which encrypts cookie values.
-* [EnvVar](https://github.com/gofiber/fiber/tree/main/middleware/envvar) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Expose environment variables with providing an optional config.
-* [ETag](https://github.com/gofiber/fiber/tree/main/middleware/etag) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed.
-* [Expvar](https://github.com/gofiber/fiber/tree/main/middleware/expvar) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Serves runtime exposed variants in JSON format via its HTTP server.
-* [Favicon](https://github.com/gofiber/fiber/tree/main/middleware/favicon) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Ignore favicon from logs or serve from memory if a file path is provided.
-* [Healthcheck](https://github.com/gofiber/fiber/tree/main/middleware/healthcheck) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Adds health-check endpoints for readiness and liveness probes.
-* [Helmet](https://github.com/gofiber/fiber/tree/main/middleware/helmet) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Helps secure your apps by setting various HTTP headers.
-* [Host Authorization](https://github.com/gofiber/fiber/tree/main/middleware/hostauthorization) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Validates the `Host` header against an allowlist to protect against DNS rebinding attacks.
-* [Idempotency](https://github.com/gofiber/fiber/tree/main/middleware/idempotency) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Enables fault-tolerant APIs when duplicate requests occur.
-* [Keyauth](https://github.com/gofiber/fiber/tree/main/middleware/keyauth) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Key auth middleware provides a key based authentication.
-* [Limiter](https://github.com/gofiber/fiber/tree/main/middleware/limiter) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Rate-limiting middleware. Use to limit repeated requests to public APIs and/or endpoints such as password reset.
-* [Logger](https://github.com/gofiber/fiber/tree/main/middleware/logger) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - HTTP request/response logger.
-* [Paginate](https://github.com/gofiber/fiber/tree/main/middleware/paginate) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Parses pagination parameters from the query string, supporting page-based, offset-based and cursor-based strategies.
-* [Pprof](https://github.com/gofiber/fiber/tree/main/middleware/pprof) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Serves runtime profiling data in the format expected by the pprof visualization tool.
-* [Proxy](https://github.com/gofiber/fiber/tree/main/middleware/proxy) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Allows you to proxy requests to a multiple servers.
-* [Recover](https://github.com/gofiber/fiber/tree/main/middleware/recover) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Recovers from panics anywhere in the stack chain and hands control to the centralized ErrorHandler.
-* [Redirect](https://github.com/gofiber/fiber/tree/main/middleware/redirect) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Handles HTTP redirects in Fiber.
-* [RequestID](https://github.com/gofiber/fiber/tree/main/middleware/requestid) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Adds a requestid to every request.
-* [Responsetime](https://github.com/gofiber/fiber/tree/main/middleware/responsetime) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Adds an `X-Response-Time` header to responses.
-* [Rewrite](https://github.com/gofiber/fiber/tree/main/middleware/rewrite) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Rewrites the URL path based on provided rules for backward compatibility or cleaner links.
-* [Session](https://github.com/gofiber/fiber/tree/main/middleware/session) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Provides session management. NOTE: This middleware uses our Storage package.
-* [Skip](https://github.com/gofiber/fiber/tree/main/middleware/skip) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Skips a wrapped handler when a predicate is true.
-* [SSE](https://github.com/gofiber/fiber/tree/main/middleware/sse) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Server-Sent Events transport that handles headers, event formatting, flushing, heartbeats and disconnect detection.
-* [Static](https://github.com/gofiber/fiber/tree/main/middleware/static) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Serves static files from a local or custom file system.
-* [Timeout](https://github.com/gofiber/fiber/tree/main/middleware/timeout) ⭐ 40,235 | 🐛 21 | 🌐 Go | 📅 2026-10-31 - Adds a max time for a request and forwards to ErrorHandler if it is exceeded.
+* [Adaptor](https://github.com/gofiber/fiber/tree/main/middleware/adaptor) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Converter for net/http handlers to/from Fiber request handlers.
+* [BasicAuth](https://github.com/gofiber/fiber/tree/main/middleware/basicauth) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Basic auth middleware provides an HTTP basic authentication. It calls the next handler for valid credentials and 401 Unauthorized for missing or invalid credentials.
+* [Cache](https://github.com/gofiber/fiber/tree/main/middleware/cache) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Intercept and cache responses.
+* [Compress](https://github.com/gofiber/fiber/tree/main/middleware/compress) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Compression middleware for Fiber, it supports `deflate`, `gzip` and `brotli` by default.
+* [CORS](https://github.com/gofiber/fiber/tree/main/middleware/cors) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Enable cross-origin resource sharing (CORS) with various options.
+* [CSRF](https://github.com/gofiber/fiber/tree/main/middleware/csrf) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Protect from CSRF exploits.
+* [Earlydata](https://github.com/gofiber/fiber/tree/main/middleware/earlydata) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Early data support for Fiber.
+* [Encrypt Cookie](https://github.com/gofiber/fiber/tree/main/middleware/encryptcookie) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Encrypt middleware which encrypts cookie values.
+* [EnvVar](https://github.com/gofiber/fiber/tree/main/middleware/envvar) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Expose environment variables with providing an optional config.
+* [ETag](https://github.com/gofiber/fiber/tree/main/middleware/etag) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed.
+* [Expvar](https://github.com/gofiber/fiber/tree/main/middleware/expvar) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Serves runtime exposed variants in JSON format via its HTTP server.
+* [Favicon](https://github.com/gofiber/fiber/tree/main/middleware/favicon) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Ignore favicon from logs or serve from memory if a file path is provided.
+* [Healthcheck](https://github.com/gofiber/fiber/tree/main/middleware/healthcheck) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Adds health-check endpoints for readiness and liveness probes.
+* [Helmet](https://github.com/gofiber/fiber/tree/main/middleware/helmet) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Helps secure your apps by setting various HTTP headers.
+* [Host Authorization](https://github.com/gofiber/fiber/tree/main/middleware/hostauthorization) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Validates the `Host` header against an allowlist to protect against DNS rebinding attacks.
+* [Idempotency](https://github.com/gofiber/fiber/tree/main/middleware/idempotency) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Enables fault-tolerant APIs when duplicate requests occur.
+* [Keyauth](https://github.com/gofiber/fiber/tree/main/middleware/keyauth) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Key auth middleware provides a key based authentication.
+* [Limiter](https://github.com/gofiber/fiber/tree/main/middleware/limiter) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Rate-limiting middleware. Use to limit repeated requests to public APIs and/or endpoints such as password reset.
+* [Logger](https://github.com/gofiber/fiber/tree/main/middleware/logger) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - HTTP request/response logger.
+* [Paginate](https://github.com/gofiber/fiber/tree/main/middleware/paginate) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Parses pagination parameters from the query string, supporting page-based, offset-based and cursor-based strategies.
+* [Pprof](https://github.com/gofiber/fiber/tree/main/middleware/pprof) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Serves runtime profiling data in the format expected by the pprof visualization tool.
+* [Proxy](https://github.com/gofiber/fiber/tree/main/middleware/proxy) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Allows you to proxy requests to a multiple servers.
+* [Recover](https://github.com/gofiber/fiber/tree/main/middleware/recover) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Recovers from panics anywhere in the stack chain and hands control to the centralized ErrorHandler.
+* [Redirect](https://github.com/gofiber/fiber/tree/main/middleware/redirect) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Handles HTTP redirects in Fiber.
+* [RequestID](https://github.com/gofiber/fiber/tree/main/middleware/requestid) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Adds a requestid to every request.
+* [Responsetime](https://github.com/gofiber/fiber/tree/main/middleware/responsetime) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Adds an `X-Response-Time` header to responses.
+* [Rewrite](https://github.com/gofiber/fiber/tree/main/middleware/rewrite) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Rewrites the URL path based on provided rules for backward compatibility or cleaner links.
+* [Session](https://github.com/gofiber/fiber/tree/main/middleware/session) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Provides session management. NOTE: This middleware uses our Storage package.
+* [Skip](https://github.com/gofiber/fiber/tree/main/middleware/skip) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Skips a wrapped handler when a predicate is true.
+* [SSE](https://github.com/gofiber/fiber/tree/main/middleware/sse) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Server-Sent Events transport that handles headers, event formatting, flushing, heartbeats and disconnect detection.
+* [Static](https://github.com/gofiber/fiber/tree/main/middleware/static) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Serves static files from a local or custom file system.
+* [Timeout](https://github.com/gofiber/fiber/tree/main/middleware/timeout) ⭐ 40,238 | 🐛 24 | 🌐 Go | 📅 2026-11-01 - Adds a max time for a request and forwards to ErrorHandler if it is exceeded.
 
 ### 🔗 External
 
@@ -125,7 +125,7 @@ List of middlewares that are created by the Fiber community.
 * [Idan-Fishman/fiber-bind](https://github.com/Idan-Fishman/fiber-bind) ⭐ 14 | 🐛 5 | 🌐 Go | 📅 2024-11-25 - Request schema validator middleware that validates sources such as the request body, query string parameters, route parameters and even form files.
 * [shareed2k/fiber\_tracing](https://github.com/shareed2k/fiber_tracing) ⭐ 12 | 🐛 4 | 🌐 Go | 📅 2024-03-27 - Middleware trace requests on Fiber framework with OpenTracing API.
 * [aschenmaker/fiber-health-check](https://github.com/aschenmaker/fiber-health-check) ⭐ 10 | 🐛 1 | 🌐 Go | 📅 2021-06-03 - Health-check middleware support health-check for Fiber️ framework.
-* [zeiss/fiber-authz](https://github.com/ZEISS/fiber-authz) ⭐ 8 | 🐛 1 | 🌐 Go | 📅 2026-10-30 - A middleware to secure routes in Fiber with a defined RBAC model.
+* [zeiss/fiber-authz](https://github.com/ZEISS/fiber-authz) ⭐ 8 | 🐛 1 | 🌐 Go | 📅 2026-10-31 - A middleware to secure routes in Fiber with a defined RBAC model.
 * [apitally/apitally-go](https://github.com/apitally/apitally-go) ⭐ 8 | 🐛 2 | 🌐 Go | 📅 2026-10-28 - Simple API monitoring tool for Fiber. Tracks API usage, errors, and performance, and includes request logging and alerting features.
 * [mikhail-bigun/fiberlogrus](https://github.com/mikhail-bigun/fiberlogrus) ⭐ 7 | 🐛 0 | 🌐 Go | 📅 2025-03-11 - A logger middleware that uses logrus and its structured logging features.
 * [zeiss/fiber-htmx](https://github.com/ZEISS/fiber-htmx) ⭐ 6 | 🐛 0 | 🌐 CSS | 📅 2026-10-30 - A middleware for using HTMX in Fiber.
@@ -165,9 +165,9 @@ Premade boilerplates for Fiber.
 
 Recipes for Fiber.
 
-* [gofiber/recipes](https://github.com/gofiber/recipes) ⭐ 3,455 | 🐛 3 | 🌐 Go | 📅 2026-10-30 - Official Fiber cookbook.
+* [gofiber/recipes](https://github.com/gofiber/recipes) ⭐ 3,455 | 🐛 4 | 🌐 Go | 📅 2026-10-30 - Official Fiber cookbook.
 * [koddr/tutorial-go-fiber-rest-api](https://github.com/koddr/tutorial-go-fiber-rest-api) ⭐ 393 | 🐛 3 | 🌐 Go | 📅 2026-02-09 - Tutorial for building a restful api with fiber.
-* [kubestellar/console](https://github.com/kubestellar/console) ⭐ 152 | 🐛 35 | 🌐 TypeScript | 📅 2026-10-31 - AI-powered multi-cluster Kubernetes dashboard built on Fiber, with real-time observability and CNCF integrations.
+* [kubestellar/console](https://github.com/kubestellar/console) ⭐ 152 | 🐛 38 | 🌐 TypeScript | 📅 2026-11-01 - AI-powered multi-cluster Kubernetes dashboard built on Fiber, with real-time observability and CNCF integrations.
 * [alpody/golang-fiber-realworld-example-app](https://github.com/alpody/golang-fiber-realworld-example-app) ⭐ 148 | 🐛 5 | 🌐 Go | 📅 2026-03-06 - Example real world backend API built with Fiber, Gorm, Swagger.
 * [firebase007/go-rest-api-with-fiber](https://github.com/firebase007/go-rest-api-with-fiber) ⭐ 58 | 🐛 1 | 🌐 Go | 📅 2020-06-11 - Demo project with fiber, logging, basicAuth and postgresql.
 * [EricLau1/go-fiber-auth-api](https://github.com/EricLau1/go-fiber-auth-api) ⭐ 54 | 🐛 1 | 🌐 Go | 📅 2021-02-14 - Golang Authentication API with Fiber MongoDB and JWT.
@@ -179,8 +179,8 @@ Recipes for Fiber.
 
 Several tools to make Fiber usage easier.
 
-* [keploy/keploy](https://github.com/keploy/keploy) ⭐ 18,925 | 🐛 829 | 🌐 Go | 📅 2026-10-31 - Records real traffic to a Fiber app and replays it as tests with mocked SQL, Redis, and HTTP calls.
-* [deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen) ⭐ 8,637 | 🐛 311 | 🌐 Go | 📅 2026-10-30 - Generate Go client and server boilerplate from OpenAPI 3 specifications.
+* [keploy/keploy](https://github.com/keploy/keploy) ⭐ 18,954 | 🐛 825 | 🌐 Go | 📅 2026-11-01 - Records real traffic to a Fiber app and replays it as tests with mocked SQL, Redis, and HTTP calls.
+* [deepmap/oapi-codegen](https://github.com/deepmap/oapi-codegen) ⭐ 8,636 | 🐛 307 | 🌐 Go | 📅 2026-11-01 - Generate Go client and server boilerplate from OpenAPI 3 specifications.
 * [Alibaba/opentelemetry-go-auto-instrumentation](https://github.com/alibaba/opentelemetry-go-auto-instrumentation) ⭐ 907 | 🐛 31 | 🌐 Go | 📅 2026-10-19 - A tool to monitor fiber application without changing any code with OpenTelemetry APIs.
 * [gofiber/cli](https://github.com/gofiber/cli) ⭐ 95 | 🐛 5 | 🌐 Go | 📅 2026-10-29 - Official Fiber command line interface for project generation, live reloading and version migration.
 * [MUlt1mate/protoc-gen-httpgo](https://github.com/MUlt1mate/protoc-gen-httpgo) ⭐ 27 | 🐛 1 | 🌐 Go | 📅 2026-04-22 - A protoc plugin that generates Fiber HTTP server and client code from proto files.
@@ -284,4 +284,4 @@ Fiber is an open-source project that runs on donations to pay the bills, e.g., o
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-31._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-01._
